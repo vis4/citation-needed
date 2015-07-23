@@ -8,12 +8,12 @@ Here's an example of how this looks like:
 
 ![](https://raw.githubusercontent.com/gka/citation-needed/master/src/screenshot.png)
 
-## Install
+### Installation
 
 You can install the extension from the [Chrome web store](https://chrome.google.com/webstore/detail/citiation-needed/bbhgklnkfnfhkgdjonobcmilljliidcn).
 
-## Contribute
+### Contribute
 
-If you'd like to contribute, improving the [main regex](https://github.com/gka/citation-needed/blob/master/extension/citation-needed.js#L4) would be a good place to start.
+If you'd like to contribute, improving the [main regex](https://github.com/gka/citation-needed/blob/master/extension/citation-needed.js#L4) seems like a good thing to start.
 
-[Feedback](https://github.com/gka/citation-needed/issues).
+[Feedback welcome](https://github.com/gka/citation-needed/issues)
