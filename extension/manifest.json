@@ -1,8 +1,7 @@
 {
  "background": {"scripts": ["background.js"]},
- "browser_action": { },
  "name": "citiation needed",
- "description": "highlights anonymous &quot;official&quot; sources in news articles",
+ "description": "highlights anonymous sources in news articles",
  "homepage_url": "https://github.com/gka/citiation-needed",
  "icons": {
      "16": "icon_16.png",
