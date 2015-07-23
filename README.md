@@ -14,6 +14,6 @@ You can install the extension from the [Chrome web store](https://chrome.google.
 
 ### Contribute
 
-If you'd like to contribute, improving the [main regex](https://github.com/gka/citation-needed/blob/master/extension/citation-needed.js#L4) seems like a good thing to start.
+If you'd like to contribute, improving the [anonymous citation detection regex](https://github.com/gka/citation-needed/blob/master/extension/citation-needed.js#L4)™ seems like a good thing to start.
 
 [Feedback welcome](https://github.com/gka/citation-needed/issues)
