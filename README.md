@@ -1,6 +1,6 @@
 # citation-needed
 
-[![](https://upload.wikimedia.org/wikipedia/commons/3/31/Webcomic_xkcd_-_Wikipedian_protester.png)](https://xkcd.com/285/)
+[![](http://imgs.xkcd.com/comics/wikipedian_protester.png)](https://xkcd.com/285/)
 
 **citation needed** is a tiny Chrome extension that highlights anonymous sources in news articles, such as [this one](http://www.nytimes.com/2015/07/21/world/middleeast/isis-strategies-include-lines-of-succession-and-deadly-ring-tones.html).
 
