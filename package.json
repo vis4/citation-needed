@@ -1,0 +1,27 @@
+{
+  "name": "citation-needed",
+  "version": "1.0.0",
+  "description": "Chrome extension that highlights anonymous sources in news articles",
+  "scripts": {
+    "test": "mocha test/*.js",
+    "tdd": "mocha --watch test/*.js",
+    "dev": "webpack --watch -d --output-filename extension/citation-needed.js --entry ./src/citation-needed.js --no-output-source-map-file",
+    "build": "webpack -p -d --output-filename extension/citation-needed.js --entry ./src/citation-needed.js --no-output-source-map-file",
+    "package": "rm -f extension.zip && npm run build && zip -r extension.zip extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gka/citation-needed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gka/citation-needed/issues"
+  },
+  "homepage": "https://github.com/gka/citation-needed#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "webpack": "^1.10.5"
+  }
+}
