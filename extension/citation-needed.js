@@ -1,7 +1,7 @@
 (function() {
     var m, i, j, c, html,
         ps = document.querySelectorAll('p,h1,h2,h3,h4,h5,li'),
-        reg = /(officials?[^\.,]*? (?:sa(?:y|id)|exclaimed)|according to[^\.,]*? officials?|(?:said|exclaimed) (?:an?|the)[^\.,]*? officials?|condition of anonymity)/g,
+        reg = /(officials?[^\.,]*? (?:sa(?:y|id)|exclaimed)|according to[^\.,]*? officials?|(?:said|exclaimed) (?:an?|the)([^\., ]*? ){0,4}officials?|condition of anonymity)/g,
         css = 'p > span.citation-needed {' +
                 "background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHFJREFUeNpUjWENgCAUhA/mfyNIJAOwqQ1soEZx0kMjGEEbSILngc9N2T72+O4AyIKLjCKCH8kxswBKMiCYHu8Kps6OmUlNPUTitLKTikwmPccbh4pZCw054cUVKlqyaoCPg82jl417p9/EPD8OtwADAOKnLmQFLo8dAAAAAElFTkSuQmCC') bottom repeat-x;" +
                 'background-size: 4px 3px; ' +
